@@ -5,7 +5,7 @@ import * as path from 'path'
 import { args_validation } from './functions/args_validation'
 import { logger } from './functions/logger'
 
-const a = 'teste curve'
+const a = 'teste curve 3'
 console.log(a)
 
 console.log(process.env.USERNAME)
