@@ -27,7 +27,7 @@ require("dotenv/config");
 const path = __importStar(require("path"));
 const args_validation_1 = require("./functions/args_validation");
 const logger_1 = require("./functions/logger");
-const a = 'teste 3w4w';
+const a = 'teste curve';
 console.log(a);
 console.log(process.env.USERNAME);
 console.log(process.env.PASSWORD);
