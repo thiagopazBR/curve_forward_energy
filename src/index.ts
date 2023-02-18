@@ -70,7 +70,7 @@ const insert_values_in_main_result = (
   insert_values_in_main_result('current', current)
   insert_values_in_main_result('status', whitelist)
 
-  const sla_result_file = process.env['CSV_SLA_FILE_NAME']!.replace(
+  const sla_result_file = process.env['CSV_SLA_FILE_NAME'].replace(
     'YYYY-MM-DD',
     day
   )
@@ -109,10 +109,10 @@ const insert_values_in_main_result = (
     })
     .then(() => {
       sharepoint_upload(
-        sla_result_file!,
+        sla_result_file,
         join(
-          process.env.SHAREPOINT_CEMIG_SLA_ROOT_FOLDER!,
-          process.env.SHAREPOINT_CEMIG_SLA_RESULT_FOLDER!
+          process.env.SHAREPOINT_CEMIG_SLA_ROOT_FOLDER,
+          process.env.SHAREPOINT_CEMIG_SLA_RESULT_FOLDER
         ),
         sla_result_file
       )
