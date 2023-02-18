@@ -1,7 +1,7 @@
 import 'dotenv/config'
 
 import { createObjectCsvWriter } from 'csv-writer'
-import { closeSync, existsSync, openSync } from 'fs'
+import { closeSync, existsSync, openSync, rmSync } from 'fs'
 import moment from 'moment'
 import { join } from 'path'
 
@@ -137,5 +137,11 @@ const insert_values_in_main_result = (
         ),
         sla_result_file
       )
+        .then(() => {
+          rmSync(sla_result_file)
+        })
+        .catch(error => {
+          throw new Error(error)
+        })
     })
 })()
