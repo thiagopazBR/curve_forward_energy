@@ -1,17 +1,17 @@
-# typescript-backend-sample
+# MG SLA
 
 
-for dev
-docker build --target=builder -t imagename:dev .
+for dev:
+docker build --target=builder -t mgsla:dev .
 
 
-for production
-docker build -t imagename .
+for production:
+docker build -t mgsla .
 
 
 # run
-docker run -it \
--v log/:log/ \
--v /usr/share/zabbix/modules/files/content/:files/ \
-hexing-azure-sql \
-imagename
+docker run -it --rm \
+    -v log/:log/ \
+    -v env/:env/ \
+    mgsla \
+    -d 2022-02-17 (opcional)
