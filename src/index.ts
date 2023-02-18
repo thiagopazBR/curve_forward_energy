@@ -77,10 +77,10 @@ const insert_values_in_main_result = (
 
   const csvWriter = createObjectCsvWriter({
     header: [
-      { id: 'curve_forward_energy', title: 'Curve_Forward_Energy' },
-      { id: 'current', title: 'Current' },
       { id: 'date', title: 'Date' },
       { id: 'meterno', title: 'Name' },
+      { id: 'curve_forward_energy', title: 'Curve_Forward_Energy' },
+      { id: 'current', title: 'Current' },
       { id: 'status', title: 'Status' },
       { id: 'voltage', title: 'Voltage' }
     ],
