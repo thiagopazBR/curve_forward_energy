@@ -1,7 +1,6 @@
 interface IArgs {
   [x: string]: unknown
-  end_date: string
-  start_date: string
+  day: string
   _: (string | number)[]
   $0: string
 }
