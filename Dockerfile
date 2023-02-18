@@ -14,7 +14,9 @@ ENV NODE_ENV=development
 RUN npm i --location=global npm@latest \
   && npm install
 
-RUN apk update && apk add --no-cache git
+RUN apk update && apk add --no-cache git && apk add --no-cache tzdata
+ENV TZ=America/Sao_Paulo
+RUN cp /usr/share/zoneinfo/America/Sao_Paulo /etc/localtime
 
 COPY . .
 

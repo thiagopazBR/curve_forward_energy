@@ -7,7 +7,6 @@
   },
   "editor.tabSize": 2,
   "eslint.codeActionsOnSave.mode": "all",
-  "eslint.options": { "editor.formatOnSave": true },
   "importSorter.importStringConfiguration.hasSemicolon": false,
   "importSorter.generalConfiguration.sortOnBeforeSave": true,
   "importSorter.importStringConfiguration.tabSize": 2,

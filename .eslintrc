@@ -17,6 +17,6 @@
       { "endOfLine": "auto" },
       { "usePrettierrc": true }
     ],
-    "sort-keys": "warn"
+    "sort-keys": "off"
   }
 }

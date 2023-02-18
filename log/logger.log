@@ -11,3 +11,267 @@
 2023-02-17 02:08:58 UTC [INFO]: 	xxxx.csv file exists
 2023-02-17 02:08:58 UTC [WARN]: 	xxxx.csv missing column
 2023-02-17 02:08:58 UTC [ERROR]: 	xxxx.csv file does not exists
+2023-02-17 20:39:03 UTC [INFO]: 	xxxx.csv file exists
+2023-02-17 20:39:03 UTC [WARN]: 	xxxx.csv missing column
+2023-02-17 20:39:03 UTC [ERROR]: 	xxxx.csv file does not exists
+2023-02-17 17:59:29 -03 [INFO]: 	xxxx.csv file exists
+2023-02-17 17:59:29 -03 [WARN]: 	xxxx.csv missing column
+2023-02-17 17:59:29 -03 [ERROR]: 	xxxx.csv file does not exists
+2023-02-17 18:12:28 -03 [INFO]: 	xxxx.csv file exists
+2023-02-17 18:12:28 -03 [WARN]: 	xxxx.csv missing column
+2023-02-17 18:12:28 -03 [ERROR]: 	xxxx.csv file does not exists
+2023-02-17 18:13:04 -03 [INFO]: 	xxxx.csv file exists
+2023-02-17 18:13:04 -03 [WARN]: 	xxxx.csv missing column
+2023-02-17 18:13:04 -03 [ERROR]: 	xxxx.csv file does not exists
+2023-02-17 18:13:20 -03 [INFO]: 	xxxx.csv file exists
+2023-02-17 18:13:20 -03 [WARN]: 	xxxx.csv missing column
+2023-02-17 18:13:20 -03 [ERROR]: 	xxxx.csv file does not exists
+2023-02-17 18:13:37 -03 [INFO]: 	xxxx.csv file exists
+2023-02-17 18:13:37 -03 [WARN]: 	xxxx.csv missing column
+2023-02-17 18:13:37 -03 [ERROR]: 	xxxx.csv file does not exists
+2023-02-17 18:14:07 -03 [INFO]: 	xxxx.csv file exists
+2023-02-17 18:14:07 -03 [WARN]: 	xxxx.csv missing column
+2023-02-17 18:14:07 -03 [ERROR]: 	xxxx.csv file does not exists
+2023-02-17 18:19:09 -03 [INFO]: 	xxxx.csv file exists
+2023-02-17 18:19:09 -03 [WARN]: 	xxxx.csv missing column
+2023-02-17 18:19:09 -03 [ERROR]: 	xxxx.csv file does not exists
+2023-02-17 18:19:09 -03 [ERROR]: 	StartDate=2024-02-19 EndDate=2023-02-17- Start date cannot be greater than end date'
+2023-02-17 18:23:50 -03 [INFO]: 	xxxx.csv file exists
+2023-02-17 18:23:50 -03 [WARN]: 	xxxx.csv missing column
+2023-02-17 18:23:50 -03 [ERROR]: 	xxxx.csv file does not exists
+2023-02-17 18:23:50 -03 [ERROR]: 	StartDate=2024-02-19 EndDate=2023-02-17 Start date cannot be greater than end date'
+2023-02-17 18:24:14 -03 [INFO]: 	xxxx.csv file exists
+2023-02-17 18:24:14 -03 [WARN]: 	xxxx.csv missing column
+2023-02-17 18:24:14 -03 [ERROR]: 	xxxx.csv file does not exists
+2023-02-17 18:24:14 -03 [ERROR]: 	StartDate=2024-02-19 EndDate=2023-02-17 Start date cannot be greater than end date'
+2023-02-17 18:31:42 -03 [INFO]: 	xxxx.csv file exists
+2023-02-17 18:31:42 -03 [WARN]: 	xxxx.csv missing column
+2023-02-17 18:31:42 -03 [ERROR]: 	xxxx.csv file does not exists
+2023-02-17 18:31:42 -03 [ERROR]: 	Error: Error: Start date cannot be greater than end date
+    at Object.check_if_date_is_greater_than (/usr/src/app/build/functions/date_validation.js:20:15)
+    at Object.<anonymous> (/usr/src/app/build/index.js:54:17)
+    at Module._compile (node:internal/modules/cjs/loader:1226:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1280:10)
+    at Module.load (node:internal/modules/cjs/loader:1089:32)
+    at Module._load (node:internal/modules/cjs/loader:930:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+2023-02-17 18:32:37 -03 [INFO]: 	xxxx.csv file exists
+2023-02-17 18:32:37 -03 [WARN]: 	xxxx.csv missing column
+2023-02-17 18:32:37 -03 [ERROR]: 	xxxx.csv file does not exists
+2023-02-17 18:32:37 -03 [ERROR]: 	Error: Start date cannot be greater than end date
+    at Object.check_if_date_is_greater_than (/usr/src/app/build/functions/date_validation.js:20:15)
+    at Object.<anonymous> (/usr/src/app/build/index.js:54:17)
+    at Module._compile (node:internal/modules/cjs/loader:1226:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1280:10)
+    at Module.load (node:internal/modules/cjs/loader:1089:32)
+    at Module._load (node:internal/modules/cjs/loader:930:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+2023-02-17 18:35:19 -03 [INFO]: 	xxxx.csv file exists
+2023-02-17 18:35:19 -03 [WARN]: 	xxxx.csv missing column
+2023-02-17 18:35:19 -03 [ERROR]: 	xxxx.csv file does not exists
+2023-02-17 18:35:19 -03 [ERROR]: 	Error: Start date cannot be greater than end date
+    at Object.check_if_date_is_greater_than (/usr/src/app/build/functions/date_validation.js:20:15)
+    at Object.<anonymous> (/usr/src/app/build/index.js:54:17)
+    at Module._compile (node:internal/modules/cjs/loader:1226:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1280:10)
+    at Module.load (node:internal/modules/cjs/loader:1089:32)
+    at Module._load (node:internal/modules/cjs/loader:930:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+2023-02-17 18:35:30 -03 [INFO]: 	xxxx.csv file exists
+2023-02-17 18:35:30 -03 [WARN]: 	xxxx.csv missing column
+2023-02-17 18:35:30 -03 [ERROR]: 	xxxx.csv file does not exists
+2023-02-17 18:35:30 -03 [ERROR]: 	Error: Start date cannot be greater than end date
+    at Object.check_if_date_is_greater_than (/usr/src/app/build/functions/date_validation.js:20:15)
+    at Object.<anonymous> (/usr/src/app/build/index.js:54:17)
+    at Module._compile (node:internal/modules/cjs/loader:1226:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1280:10)
+    at Module.load (node:internal/modules/cjs/loader:1089:32)
+    at Module._load (node:internal/modules/cjs/loader:930:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+2023-02-17 18:35:43 -03 [INFO]: 	xxxx.csv file exists
+2023-02-17 18:35:43 -03 [WARN]: 	xxxx.csv missing column
+2023-02-17 18:35:43 -03 [ERROR]: 	xxxx.csv file does not exists
+2023-02-17 18:37:03 -03 [INFO]: 	xxxx.csv file exists
+2023-02-17 18:37:03 -03 [WARN]: 	xxxx.csv missing column
+2023-02-17 18:37:03 -03 [ERROR]: 	xxxx.csv file does not exists
+2023-02-17 18:37:03 -03 [ERROR]: 	Error: Start date cannot be greater than end date
+    at Object.check_if_date_is_greater_than (/usr/src/app/build/functions/date_validation.js:20:15)
+    at Object.<anonymous> (/usr/src/app/build/index.js:54:17)
+    at Module._compile (node:internal/modules/cjs/loader:1226:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1280:10)
+    at Module.load (node:internal/modules/cjs/loader:1089:32)
+    at Module._load (node:internal/modules/cjs/loader:930:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+2023-02-17 18:39:08 -03 [INFO]: 	xxxx.csv file exists
+2023-02-17 18:39:08 -03 [WARN]: 	xxxx.csv missing column
+2023-02-17 18:39:08 -03 [ERROR]: 	xxxx.csv file does not exists
+2023-02-17 18:39:08 -03 [ERROR]: 	Error: 2023-02-17 is greater then 2023-02-16
+    at Object.check_if_date_is_greater_than (/usr/src/app/build/functions/date_validation.js:20:15)
+    at Object.<anonymous> (/usr/src/app/build/index.js:54:17)
+    at Module._compile (node:internal/modules/cjs/loader:1226:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1280:10)
+    at Module.load (node:internal/modules/cjs/loader:1089:32)
+    at Module._load (node:internal/modules/cjs/loader:930:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+2023-02-17 18:39:36 -03 [INFO]: 	xxxx.csv file exists
+2023-02-17 18:39:36 -03 [WARN]: 	xxxx.csv missing column
+2023-02-17 18:39:36 -03 [ERROR]: 	xxxx.csv file does not exists
+2023-02-17 18:49:57 -03 [INFO]: 	xxxx.csv file exists
+2023-02-17 18:49:57 -03 [WARN]: 	xxxx.csv missing column
+2023-02-17 18:49:57 -03 [ERROR]: 	xxxx.csv file does not exists
+2023-02-17 18:51:17 -03 [INFO]: 	xxxx.csv file exists
+2023-02-17 18:51:17 -03 [WARN]: 	xxxx.csv missing column
+2023-02-17 18:51:17 -03 [ERROR]: 	xxxx.csv file does not exists
+2023-02-17 18:52:46 -03 [INFO]: 	xxxx.csv file exists
+2023-02-17 18:52:46 -03 [WARN]: 	xxxx.csv missing column
+2023-02-17 18:52:46 -03 [ERROR]: 	xxxx.csv file does not exists
+2023-02-17 18:53:33 -03 [INFO]: 	xxxx.csv file exists
+2023-02-17 18:53:33 -03 [WARN]: 	xxxx.csv missing column
+2023-02-17 18:53:33 -03 [ERROR]: 	xxxx.csv file does not exists
+2023-02-17 18:54:00 -03 [INFO]: 	xxxx.csv file exists
+2023-02-17 18:54:00 -03 [WARN]: 	xxxx.csv missing column
+2023-02-17 18:54:00 -03 [ERROR]: 	xxxx.csv file does not exists
+2023-02-17 18:54:37 -03 [INFO]: 	xxxx.csv file exists
+2023-02-17 18:54:37 -03 [WARN]: 	xxxx.csv missing column
+2023-02-17 18:54:37 -03 [ERROR]: 	xxxx.csv file does not exists
+2023-02-17 19:20:11 -03 [INFO]: 	xxxx.csv file exists
+2023-02-17 19:20:11 -03 [WARN]: 	xxxx.csv missing column
+2023-02-17 19:20:11 -03 [ERROR]: 	xxxx.csv file does not exists
+2023-02-17 19:31:17 -03 [INFO]: 	xxxx.csv file exists
+2023-02-17 19:31:17 -03 [WARN]: 	xxxx.csv missing column
+2023-02-17 19:31:17 -03 [ERROR]: 	xxxx.csv file does not exists
+2023-02-17 19:31:58 -03 [INFO]: 	xxxx.csv file exists
+2023-02-17 19:31:58 -03 [WARN]: 	xxxx.csv missing column
+2023-02-17 19:31:58 -03 [ERROR]: 	xxxx.csv file does not exists
+2023-02-17 19:33:09 -03 [INFO]: 	xxxx.csv file exists
+2023-02-17 19:33:09 -03 [WARN]: 	xxxx.csv missing column
+2023-02-17 19:33:09 -03 [ERROR]: 	xxxx.csv file does not exists
+2023-02-17 19:44:14 -03 [INFO]: 	xxxx.csv file exists
+2023-02-17 19:44:14 -03 [WARN]: 	xxxx.csv missing column
+2023-02-17 19:44:14 -03 [ERROR]: 	xxxx.csv file does not exists
+2023-02-17 19:44:33 -03 [INFO]: 	xxxx.csv file exists
+2023-02-17 19:44:33 -03 [WARN]: 	xxxx.csv missing column
+2023-02-17 19:44:33 -03 [ERROR]: 	xxxx.csv file does not exists
+2023-02-17 19:45:43 -03 [INFO]: 	xxxx.csv file exists
+2023-02-17 19:45:43 -03 [WARN]: 	xxxx.csv missing column
+2023-02-17 19:45:43 -03 [ERROR]: 	xxxx.csv file does not exists
+2023-02-17 19:46:00 -03 [INFO]: 	xxxx.csv file exists
+2023-02-17 19:46:00 -03 [WARN]: 	xxxx.csv missing column
+2023-02-17 19:46:00 -03 [ERROR]: 	xxxx.csv file does not exists
+2023-02-17 19:46:30 -03 [INFO]: 	xxxx.csv file exists
+2023-02-17 19:46:30 -03 [WARN]: 	xxxx.csv missing column
+2023-02-17 19:46:30 -03 [ERROR]: 	xxxx.csv file does not exists
+2023-02-17 19:47:02 -03 [INFO]: 	xxxx.csv file exists
+2023-02-17 19:47:02 -03 [WARN]: 	xxxx.csv missing column
+2023-02-17 19:47:02 -03 [ERROR]: 	xxxx.csv file does not exists
+2023-02-17 19:47:26 -03 [INFO]: 	xxxx.csv file exists
+2023-02-17 19:47:26 -03 [WARN]: 	xxxx.csv missing column
+2023-02-17 19:47:26 -03 [ERROR]: 	xxxx.csv file does not exists
+2023-02-17 19:52:04 -03 [INFO]: 	xxxx.csv file exists
+2023-02-17 19:52:04 -03 [WARN]: 	xxxx.csv missing column
+2023-02-17 19:52:04 -03 [ERROR]: 	xxxx.csv file does not exists
+2023-02-17 20:02:30 -03 [INFO]: 	xxxx.csv file exists
+2023-02-17 20:02:30 -03 [WARN]: 	xxxx.csv missing column
+2023-02-17 20:02:30 -03 [ERROR]: 	xxxx.csv file does not exists
+2023-02-17 20:02:57 -03 [INFO]: 	xxxx.csv file exists
+2023-02-17 20:02:57 -03 [WARN]: 	xxxx.csv missing column
+2023-02-17 20:02:57 -03 [ERROR]: 	xxxx.csv file does not exists
+2023-02-17 20:03:27 -03 [INFO]: 	xxxx.csv file exists
+2023-02-17 20:03:27 -03 [WARN]: 	xxxx.csv missing column
+2023-02-17 20:03:27 -03 [ERROR]: 	xxxx.csv file does not exists
+2023-02-17 20:03:54 -03 [INFO]: 	xxxx.csv file exists
+2023-02-17 20:03:54 -03 [WARN]: 	xxxx.csv missing column
+2023-02-17 20:03:54 -03 [ERROR]: 	xxxx.csv file does not exists
+2023-02-17 20:03:59 -03 [INFO]: 	xxxx.csv file exists
+2023-02-17 20:03:59 -03 [WARN]: 	xxxx.csv missing column
+2023-02-17 20:03:59 -03 [ERROR]: 	xxxx.csv file does not exists
+2023-02-17 20:04:06 -03 [INFO]: 	xxxx.csv file exists
+2023-02-17 20:04:06 -03 [WARN]: 	xxxx.csv missing column
+2023-02-17 20:04:06 -03 [ERROR]: 	xxxx.csv file does not exists
+2023-02-17 20:04:17 -03 [INFO]: 	xxxx.csv file exists
+2023-02-17 20:04:17 -03 [WARN]: 	xxxx.csv missing column
+2023-02-17 20:04:17 -03 [ERROR]: 	xxxx.csv file does not exists
+2023-02-17 20:05:39 -03 [INFO]: 	xxxx.csv file exists
+2023-02-17 20:05:39 -03 [WARN]: 	xxxx.csv missing column
+2023-02-17 20:05:39 -03 [ERROR]: 	xxxx.csv file does not exists
+2023-02-17 20:18:26 -03 [INFO]: 	xxxx.csv file exists
+2023-02-17 20:18:26 -03 [WARN]: 	xxxx.csv missing column
+2023-02-17 20:18:26 -03 [ERROR]: 	xxxx.csv file does not exists
+2023-02-17 20:39:04 -03 [INFO]: 	xxxx.csv file exists
+2023-02-17 20:39:04 -03 [WARN]: 	xxxx.csv missing column
+2023-02-17 20:39:04 -03 [ERROR]: 	xxxx.csv file does not exists
+2023-02-17 20:39:25 -03 [INFO]: 	xxxx.csv file exists
+2023-02-17 20:39:25 -03 [WARN]: 	xxxx.csv missing column
+2023-02-17 20:39:25 -03 [ERROR]: 	xxxx.csv file does not exists
+2023-02-17 20:39:56 -03 [INFO]: 	xxxx.csv file exists
+2023-02-17 20:39:56 -03 [WARN]: 	xxxx.csv missing column
+2023-02-17 20:39:56 -03 [ERROR]: 	xxxx.csv file does not exists
+2023-02-17 20:40:26 -03 [INFO]: 	xxxx.csv file exists
+2023-02-17 20:40:26 -03 [WARN]: 	xxxx.csv missing column
+2023-02-17 20:40:26 -03 [ERROR]: 	xxxx.csv file does not exists
+2023-02-17 20:41:16 -03 [INFO]: 	xxxx.csv file exists
+2023-02-17 20:41:16 -03 [WARN]: 	xxxx.csv missing column
+2023-02-17 20:41:16 -03 [ERROR]: 	xxxx.csv file does not exists
+2023-02-17 20:44:37 -03 [INFO]: 	xxxx.csv file exists
+2023-02-17 20:44:37 -03 [WARN]: 	xxxx.csv missing column
+2023-02-17 20:44:37 -03 [ERROR]: 	xxxx.csv file does not exists
+2023-02-17 20:44:49 -03 [INFO]: 	xxxx.csv file exists
+2023-02-17 20:44:49 -03 [WARN]: 	xxxx.csv missing column
+2023-02-17 20:44:49 -03 [ERROR]: 	xxxx.csv file does not exists
+2023-02-17 21:23:03 -03 [ERROR]: 	Error: Error: <S:Fault>
+  <S:Code>
+    <S:Value>S:Sender</S:Value>
+    <S:Subcode>
+      <S:Value>wst:FailedAuthentication</S:Value>
+    </S:Subcode>
+  </S:Code>
+  <S:Reason>
+    <S:Text xml:lang="en-US">Authentication Failure</S:Text>
+  </S:Reason>
+  <S:Detail>
+    <psf:error xmlns:psf="http://schemas.microsoft.com/Passport/SoapServices/SOAPFault">
+      <psf:value>0x80048821</psf:value>
+      <psf:internalerror>
+        <psf:code>0x80048821</psf:code>
+        <psf:text>AADSTS50126: Error validating credentials due to invalid username or password.</psf:text>
+      </psf:internalerror>
+    </psf:error>
+  </S:Detail>
+</S:Fault>
+    at /usr/src/app/build/functions/sharepoint.js:28:19
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-02-17 21:41:58 -03 [ERROR]: 	Error: <?xml version="1.0" encoding="utf-8"?><m:error xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata"><m:code>-2130575338, Microsoft.SharePoint.SPException</m:code><m:message xml:lang="pt-PT">O ficheiro /sites/CustomerDeliveryServices/Customer Delivery Services/Projects/1-Actives/CEMIG - SMC BT0/Technical team/SLA/Curve Forward Energy/2023-02-14_curve_forward_energy.csvx não existe.</m:message></m:error>
+    at /usr/src/app/build/functions/sharepoint.js:34:27
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-02-17 21:42:43 -03 [ERROR]: 	Error: ENOENT: no such file or directory, open 'download/2023-02-14_curve_forward_energy.csv'
+2023-02-17 21:42:43 -03 [ERROR]: 	Error: <?xml version="1.0" encoding="utf-8"?><m:error xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata"><m:code>-2130575338, Microsoft.SharePoint.SPException</m:code><m:message xml:lang="pt-PT">O ficheiro /sites/CustomerDeliveryServices/Customer Delivery Services/Projects/1-Actives/CEMIG - SMC BT0/Technical team/SLA/Curve Forward Energy/2023-02-14_curve_forward_energy.csvx não existe.</m:message></m:error>
+    at /usr/src/app/build/functions/sharepoint.js:34:27
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-02-17 21:44:46 -03 [ERROR]: 	Error: <?xml version="1.0" encoding="utf-8"?><m:error xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata"><m:code>-2130575338, Microsoft.SharePoint.SPException</m:code><m:message xml:lang="pt-PT">O ficheiro /sites/CustomerDeliveryServices/Customer Delivery Services/Projects/1-Actives/CEMIG - SMC BT0/Technical team/SLA/Curve Forward Energy/2023-02-14_curve_forward_energy.csvx não existe.</m:message></m:error>
+    at /usr/src/app/build/functions/sharepoint.js:35:27
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-02-17 21:53:20 -03 [ERROR]: 	Error: <?xml version="1.0" encoding="utf-8"?><m:error xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata"><m:code>-2130575338, Microsoft.SharePoint.SPException</m:code><m:message xml:lang="pt-PT">O ficheiro /sites/CustomerDeliveryServices/Customer Delivery Services/Projects/1-Actives/CEMIG - SMC BT0/Technical team/SLA/Curve Forward Energy/2023-02-14_voltage.csv não existe.</m:message></m:error>
+    at /usr/src/app/build/functions/sharepoint.js:35:27
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-02-17 22:00:46 -03 [ERROR]: 	Error: <?xml version="1.0" encoding="utf-8"?><m:error xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata"><m:code>-2130575338, Microsoft.SharePoint.SPException</m:code><m:message xml:lang="pt-PT">O ficheiro /sites/CustomerDeliveryServices/Customer Delivery Services/Projects/1-Actives/CEMIG - SMC BT0/Technical team/SLA/Curve Forward Energy/2023-02-14_voltage.csv não existe.</m:message></m:error>
+    at /usr/src/app/build/functions/sharepoint.js:37:27
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-02-17 22:03:09 -03 [ERROR]: 	Error: ENOTEMPTY: directory not empty, rmdir './download'
+    at rmdirSync (node:fs:1226:10)
+    at /usr/src/app/build/functions/sharepoint.js:36:40
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-02-18 11:35:32 -03 [ERROR]: 	Error: ENOENT: no such file or directory, open 'upload/2023-02-17_CEMIG_SLA.csv'
+2023-02-18 11:39:11 -03 [ERROR]: 	Error: ENOENT: no such file or directory, open 'upload/2023-02-17_CEMIG_SLA.csv'
+2023-02-18 12:22:03 -03 [ERROR]: 	Error: ENOENT: no such file or directory, open 'upload/2023-02-14_CEMIG_SLA.csv'
+    at Object.openSync (node:fs:600:3)
+    at /usr/src/app/build/index.js:83:25
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-02-18 12:42:51 -03 [ERROR]: 	Error: <?xml version="1.0" encoding="utf-8"?><m:error xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata"><m:code>-2130575338, Microsoft.SharePoint.SPException</m:code><m:message xml:lang="pt-PT">O ficheiro /sites/CustomerDeliveryServices/Customer Delivery Services/Projects/1-Actives/CEMIG - SMC BT0/Technical team/SLA/Whitelist/2023-02-14_whitelist.csv não existe.</m:message></m:error>
+    at /usr/src/app/build/functions/sharepoint.js:37:27
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
