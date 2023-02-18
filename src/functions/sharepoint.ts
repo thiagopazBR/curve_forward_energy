@@ -88,7 +88,7 @@ export const sharepoint_upload = async (
     fileContent: readFileSync(local_file_full_path)
   }
 
-  return new Promise((resolve, reject) => {
+  return new Promise(resolve => {
     spsave(coreOptions, creds, fileOptions)
       .then(function () {
         resolve('saved')
