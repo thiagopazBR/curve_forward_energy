@@ -22,7 +22,8 @@ const logger = createLogger({
         })
       )
     })
-  ]
+  ],
+  exitOnError: true
 })
 
 export { logger }
