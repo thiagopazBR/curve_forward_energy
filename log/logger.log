@@ -275,3 +275,25 @@
 2023-02-18 12:42:51 -03 [ERROR]: 	Error: <?xml version="1.0" encoding="utf-8"?><m:error xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata"><m:code>-2130575338, Microsoft.SharePoint.SPException</m:code><m:message xml:lang="pt-PT">O ficheiro /sites/CustomerDeliveryServices/Customer Delivery Services/Projects/1-Actives/CEMIG - SMC BT0/Technical team/SLA/Whitelist/2023-02-14_whitelist.csv não existe.</m:message></m:error>
     at /usr/src/app/build/functions/sharepoint.js:37:27
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-02-18 18:13:50 -03 [ERROR]: 	Error:  2023-02-11 Incorrect date format. It should be YYYY-MM-DD
+    at Object.check_date_format (/usr/src/app/build/functions/date_validation.js:12:15)
+    at Object.<anonymous> (/usr/src/app/build/index.js:51:17)
+    at Module._compile (node:internal/modules/cjs/loader:1226:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1280:10)
+    at Module.load (node:internal/modules/cjs/loader:1089:32)
+    at Module._load (node:internal/modules/cjs/loader:930:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+2023-02-18 18:48:19 -03 [ERROR]: 	Error:  2023-02-11 Incorrect date format. It should be YYYY-MM-DD
+    at Object.check_date_format (/usr/src/app/build/functions/date_validation.js:12:15)
+    at check_date (/usr/src/app/build/index.js:55:21)
+    at /usr/src/app/build/index.js:81:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-02-18 18:48:39 -03 [ERROR]: 	Error:  2023-02-11 Incorrect date format. It should be YYYY-MM-DD
+    at Object.check_date_format (/usr/src/app/build/functions/date_validation.js:12:15)
+    at check_date (/usr/src/app/build/index.js:55:21)
+    at /usr/src/app/build/index.js:81:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-02-18 18:51:36 -03 [ERROR]: 	Error: <?xml version="1.0" encoding="utf-8"?><m:error xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata"><m:code>-2130575338, Microsoft.SharePoint.SPException</m:code><m:message xml:lang="pt-PT">O ficheiro /sites/CustomerDeliveryServices/Customer Delivery Services/Projects/1-Actives/CEMIG - SMC BT0/Technical team/SLA/Whitelist/2023-02-11_whitelist.csv não existe.</m:message></m:error>
+    at /usr/src/app/build/functions/sharepoint.js:38:27
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)

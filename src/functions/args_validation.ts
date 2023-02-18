@@ -1,3 +1,4 @@
+import moment from 'moment'
 import yargs from 'yargs/yargs'
 
 import { IArgs } from '../interfaces/IArgs'
@@ -6,8 +7,8 @@ const check_args = (args: string[]): IArgs | Promise<IArgs> => {
   const argv = yargs(args)
     .options({
       day: {
-        alias: 'sd',
-        //default: '2023-02-14',
+        alias: 'd',
+        default: moment().subtract(1, 'days').format('YYYY-MM-DD'),
         describe: 'Start Date. Format "YYYY-MM-DD"',
         type: 'string'
         /* Uncomment option below to turn it required

@@ -1,7 +1,7 @@
 import 'dotenv/config'
 
 import { createObjectCsvWriter } from 'csv-writer'
-import * as fs from 'fs'
+import { closeSync, existsSync, openSync } from 'fs'
 import moment from 'moment'
 import { join } from 'path'
 
@@ -21,16 +21,28 @@ process.on('uncaughtException', err => {
   else logger.error(`${err.name}: ${err.message}`, () => process.exit(1))
 })
 
-const args = args_validation(process.argv.slice(2))
-const day: string = args.day
-const yesterday: string = moment().subtract(1, 'days').format('YYYY-MM-DD')
+const check_args = (): Promise<string> => {
+  const args = args_validation(process.argv.slice(2))
+  const day: string = args.day.trim()
 
-date_validation.check_date_format(day)
-date_validation.check_if_date_is_greater_than(day, yesterday)
+  return Promise.resolve(day)
+}
 
-const main_result: IMainResult = {}
+const check_date = (day: string): Promise<string> => {
+  const yesterday: string = moment().subtract(1, 'days').format('YYYY-MM-DD')
 
-const insert_meterno_in_main_result = (obj: { [key: string]: string }) => {
+  date_validation.check_date_format(day)
+  date_validation.check_if_date_is_greater_than(day, yesterday)
+
+  return Promise.resolve(day)
+}
+
+const insert_meterno_in_main_result = (
+  obj: {
+    [key: string]: string
+  },
+  main_result: IMainResult
+) => {
   for (const key of Object.keys(obj))
     main_result[key] = {
       curve_forward_energy: 0.0,
@@ -42,7 +54,8 @@ const insert_meterno_in_main_result = (obj: { [key: string]: string }) => {
 
 const insert_values_in_main_result = (
   column: string,
-  obj: { [key: string]: string }
+  obj: { [key: string]: string },
+  main_result: IMainResult
 ) => {
   for (const [key, value] of Object.entries(obj))
     if (column == 'curve_forward_energy')
@@ -53,22 +66,31 @@ const insert_values_in_main_result = (
 }
 
 ;(async () => {
+  const day = await check_args()
+  await check_date(day)
+
+  const main_result: IMainResult = {}
+
   const curve_forward_energy = await curve_forward_energy_calc(day)
-  insert_meterno_in_main_result(curve_forward_energy)
+  insert_meterno_in_main_result(curve_forward_energy, main_result)
 
   const voltage = await voltage_calc(day)
-  insert_meterno_in_main_result(voltage)
+  insert_meterno_in_main_result(voltage, main_result)
 
   const current = await current_calc(day)
-  insert_meterno_in_main_result(current)
+  insert_meterno_in_main_result(current, main_result)
 
   const whitelist = await whitelist_status(day)
-  insert_meterno_in_main_result(whitelist)
+  insert_meterno_in_main_result(whitelist, main_result)
 
-  insert_values_in_main_result('curve_forward_energy', curve_forward_energy)
-  insert_values_in_main_result('voltage', voltage)
-  insert_values_in_main_result('current', current)
-  insert_values_in_main_result('status', whitelist)
+  insert_values_in_main_result(
+    'curve_forward_energy',
+    curve_forward_energy,
+    main_result
+  )
+  insert_values_in_main_result('voltage', voltage, main_result)
+  insert_values_in_main_result('current', current, main_result)
+  insert_values_in_main_result('status', whitelist, main_result)
 
   const sla_result_file = process.env['CSV_SLA_FILE_NAME'].replace(
     'YYYY-MM-DD',
@@ -99,8 +121,7 @@ const insert_values_in_main_result = (
       status: value.status
     })
 
-  if (!fs.existsSync(sla_result_file))
-    fs.closeSync(fs.openSync(sla_result_file, 'w'))
+  if (!existsSync(sla_result_file)) closeSync(openSync(sla_result_file, 'w'))
 
   csvWriter
     .writeRecords(records) // returns a promise
