@@ -46,6 +46,5 @@ RUN npm i --location=global npm@latest
 RUN npm install --omit=dev
 
 COPY --from=builder /usr/src/app/build ./build
-COPY .env.sample .env
 
 CMD [ "node", "build/index.js" ]
