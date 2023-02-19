@@ -6,8 +6,12 @@ docker build --target=builder -t mgsla:dev .
 
 
 for production:<br>
-git clone https://github.com/thiagopazBR/curve_forward_energy.git<br>
-docker build -t mgsla .<br>
+
+```console
+git clone https://github.com/thiagopazBR/curve_forward_energy.git
+cd curve_forward_energy
+docker build -t mgsla .
+```
 
 
 # run
