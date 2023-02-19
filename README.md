@@ -1,17 +1,18 @@
 # MG SLA
 
 
-for dev:
+for dev:<br>
 docker build --target=builder -t mgsla:dev .
 
 
-for production:
-docker build -t mgsla .
+for production:<br>
+git clone https://github.com/thiagopazBR/curve_forward_energy.git<br>
+docker build -t mgsla .<br>
 
 
 # run
 docker run -it --rm \
-    -v log/:log/ \
-    -v env/:env/ \
+    --env-file /opt/automated_scripts/dockerized_environment/env/.env \
+    -v /opt/automated_scripts/dockerized_environment/log/:/usr/src/app/log/ \
     mgsla \
-    -d 2022-02-17 (opcional)
+    build/index.js -d 2023-02-11 (opcional)
