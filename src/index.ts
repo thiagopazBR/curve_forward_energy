@@ -103,8 +103,8 @@ const insert_values_in_main_result = (
       { id: 'meterno', title: 'Name' },
       { id: 'curve_forward_energy', title: 'Curve_Forward_Energy' },
       { id: 'current', title: 'Current' },
-      { id: 'status', title: 'Status' },
-      { id: 'voltage', title: 'Voltage' }
+      { id: 'voltage', title: 'Voltage' },
+      { id: 'status', title: 'Status' }
     ],
     path: sla_result_file
   })
