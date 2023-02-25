@@ -16,7 +16,7 @@ docker build -t mgsla .
 
 # run
 ```console
-docker run -it --rm \
+docker run --rm \
     --env-file /opt/automated_scripts/dockerized_environment/env/.env \
     -v /opt/automated_scripts/dockerized_environment/log/:/usr/src/app/log/ \
     mgsla \
